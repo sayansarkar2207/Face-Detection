@@ -1,7 +1,7 @@
 import cv2, os
 haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'dataset'  
-sub_data = 'champ'     
+sub_data = 'person'     
 
 path = os.path.join(datasets, sub_data)
 if not os.path.isdir(path):
